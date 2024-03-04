@@ -8,7 +8,7 @@ import (
 
 
 func init() {
-	rootCmd.AddCommand(listCmd)
+	root.AddCommand(listCmd)
 }
 
 var listCmd = &cobra.Command{
